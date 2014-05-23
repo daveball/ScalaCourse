@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ListsSuite" project="example" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="example.ListsSuite" time="0.0">
+    <testcase name="one plus one is three" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="one plus one is two" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="details why one plus one is not three" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="intNotZero throws an exception if its argument is 0" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="sum of a few numbers" classname="example.ListsSuite" time="0.0"/>
+    <testcase name="max of a few numbers" classname="example.ListsSuite" time="0.0"/>
+  </testsuite>
+</testrun>

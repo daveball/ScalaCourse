@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FunSetSuite" project="funsets" tests="11" started="11" failures="0" errors="1" ignored="0">
+  <testsuite name="funsets.FunSetSuite" time="0.192">
+    <testcase name="string take" classname="funsets.FunSetSuite" time="0.0"/>
+    <testcase name="adding ints" classname="funsets.FunSetSuite" time="0.0"/>
+    <testcase name="contains is implemented" classname="funsets.FunSetSuite" time="0.0"/>
+    <testcase name="singletonSet" classname="1" time="0.008"/>
+    <testcase name="singletonSet" classname="2" time="0.013"/>
+    <testcase name="union contains all elements" classname="funsets.FunSetSuite" time="0.01"/>
+    <testcase name="intersect contains only common elements" classname="funsets.FunSetSuite" time="0.017"/>
+    <testcase name="diff contains only  elements in first set not in second set" classname="funsets.FunSetSuite" time="0.044"/>
+    <testcase name="exists test to see if a value  which satisfies condition function" classname="funsets.FunSetSuite" time="0.043"/>
+    <testcase name="filter test to return  only items of set  which satrify filter" classname="funsets.FunSetSuite" time="0.028"/>
+    <testcase name="map test to  transform vlaue in set  by applying  function" classname="funsets.FunSetSuite" time="0.029">
+      <error>org.scalatest.exceptions.TestFailedException: map 2 to 2 sqrd i.e. 4&#13;
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:318)&#13;
+	at funsets.FunSetSuite.newAssertionFailedException(FunSetSuite.scala:15)&#13;
+	at org.scalatest.Assertions$class.assert(Assertions.scala:337)&#13;
+	at funsets.FunSetSuite.assert(FunSetSuite.scala:15)&#13;
+	at funsets.FunSetSuite$$anonfun$17$$anon$8.&lt;init&gt;(FunSetSuite.scala:224)&#13;
+	at funsets.FunSetSuite$$anonfun$17.apply$mcV$sp(FunSetSuite.scala:214)&#13;
+	at funsets.FunSetSuite$$anonfun$17.apply(FunSetSuite.scala:214)&#13;
+	at funsets.FunSetSuite$$anonfun$17.apply(FunSetSuite.scala:214)&#13;
+	at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)&#13;
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1974)&#13;
+	at funsets.FunSetSuite.withFixture(FunSetSuite.scala:15)&#13;
+	at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)&#13;
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)&#13;
+	at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)&#13;
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:198)&#13;
+	at org.scalatest.FunSuite$class.runTest(FunSuite.scala:1271)&#13;
+	at funsets.FunSetSuite.runTest(FunSetSuite.scala:15)&#13;
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)&#13;
+	at org.scalatest.FunSuite$$anonfun$runTests$1.apply(FunSuite.scala:1304)&#13;
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:260)&#13;
+	at org.scalatest.SuperEngine$$anonfun$org$scalatest$SuperEngine$$runTestsInBranch$1.apply(Engine.scala:249)&#13;
+	at scala.collection.immutable.List.foreach(List.scala:318)&#13;
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:249)&#13;
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:326)&#13;
+	at org.scalatest.FunSuite$class.runTests(FunSuite.scala:1304)&#13;
+	at funsets.FunSetSuite.runTests(FunSetSuite.scala:15)&#13;
+	at org.scalatest.Suite$class.run(Suite.scala:2303)&#13;
+	at funsets.FunSetSuite.org$scalatest$FunSuite$$super$run(FunSetSuite.scala:15)&#13;
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)&#13;
+	at org.scalatest.FunSuite$$anonfun$run$1.apply(FunSuite.scala:1310)&#13;
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:362)&#13;
+	at org.scalatest.FunSuite$class.run(FunSuite.scala:1310)&#13;
+	at funsets.FunSetSuite.run(FunSetSuite.scala:15)&#13;
+	at org.scalatest.junit.JUnitRunner.run(JUnitRunner.scala:94)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

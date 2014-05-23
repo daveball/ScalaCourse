@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TweetSetSuite" project="objsets" tests="7" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="objsets.TweetSetSuite" incomplete="true">
+    <testcase name="filter: on empty set" classname="objsets.TweetSetSuite" incomplete="true"/>
+    <testcase name="filter: a on set5" classname="objsets.TweetSetSuite" incomplete="true"/>
+    <testcase name="filter: 20 on set5" classname="objsets.TweetSetSuite" incomplete="true"/>
+    <testcase name="union: set4c and set4d" classname="objsets.TweetSetSuite" incomplete="true"/>
+    <testcase name="union: with empty set " classname="1" incomplete="true"/>
+    <testcase name="union: with empty set " classname="2" incomplete="true"/>
+    <testcase name="descending: set5" classname="objsets.TweetSetSuite" incomplete="true"/>
+  </testsuite>
+</testrun>

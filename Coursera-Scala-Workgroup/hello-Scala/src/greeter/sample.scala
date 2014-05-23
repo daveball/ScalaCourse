@@ -1,0 +1,9 @@
+package greeter
+{
+object sample {
+  val x = 5                                     
+  def increase(i: Int) = i + 1                    
+  increase(x)                                     
+}
+
+}

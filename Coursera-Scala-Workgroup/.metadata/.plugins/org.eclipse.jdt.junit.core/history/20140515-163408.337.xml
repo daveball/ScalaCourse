@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FunSetSuite" project="funsets" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="funsets.FunSetSuite" time="0.331">
+    <testcase name="string take" classname="funsets.FunSetSuite" time="0.004"/>
+    <testcase name="adding ints" classname="funsets.FunSetSuite" time="0.002"/>
+    <testcase name="contains is implemented" classname="funsets.FunSetSuite" time="0.003"/>
+    <testcase name="singletonSet" classname="1" time="0.002"/>
+    <testcase name="singletonSet" classname="2" time="0.0"/>
+    <testcase name="union contains all elements" classname="funsets.FunSetSuite" time="0.002"/>
+    <testcase name="intersect contains only common elements" classname="funsets.FunSetSuite" time="0.001"/>
+    <testcase name="diff contains only  elements in first set not in second set" classname="funsets.FunSetSuite" time="0.03"/>
+    <testcase name="exists test to see if a value exists which satisfies condition function" classname="funsets.FunSetSuite" time="0.011"/>
+    <testcase name="for all test to see if all value in set satisfies  the satisfies condition function" classname="funsets.FunSetSuite" time="0.006"/>
+    <testcase name="filter test to return  only items of set  which satrify filter" classname="funsets.FunSetSuite" time="0.004"/>
+    <testcase name="map test to  transform vlaue in set  by applying  function" classname="funsets.FunSetSuite" time="0.266"/>
+  </testsuite>
+</testrun>

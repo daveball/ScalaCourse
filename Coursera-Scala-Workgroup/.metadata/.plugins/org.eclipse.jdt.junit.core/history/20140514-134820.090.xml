@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FunSetSuite" project="funsets" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="funsets.FunSetSuite" time="0.102">
+    <testcase name="string take" classname="funsets.FunSetSuite" time="0.004"/>
+    <testcase name="adding ints" classname="funsets.FunSetSuite" time="0.002"/>
+    <testcase name="contains is implemented" classname="funsets.FunSetSuite" time="0.009"/>
+    <testcase name="singletonSet" classname="1" time="0.023"/>
+    <testcase name="singletonSet" classname="2" time="0.009"/>
+    <testcase name="union contains all elements" classname="funsets.FunSetSuite" time="0.01"/>
+    <testcase name="intersect contains only common elements" classname="funsets.FunSetSuite" time="0.009"/>
+    <testcase name="diff contains only  elements in first set not in second set" classname="funsets.FunSetSuite" time="0.036"/>
+  </testsuite>
+</testrun>

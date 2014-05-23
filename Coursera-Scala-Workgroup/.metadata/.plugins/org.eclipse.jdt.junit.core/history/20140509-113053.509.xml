@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BalanceSuite" project="recfun" tests="4" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="recfun.BalanceSuite" incomplete="true">
+    <testcase name="balance: '" classname="if (zero? x" incomplete="true"/>
+    <testcase name="balance: 'I told him ...' is balanced" classname="recfun.BalanceSuite" incomplete="true"/>
+    <testcase name="balance: ':-)' is unbalanced" classname="recfun.BalanceSuite" incomplete="true"/>
+    <testcase name="balance: counting is not enough" classname="recfun.BalanceSuite" incomplete="true"/>
+  </testsuite>
+</testrun>

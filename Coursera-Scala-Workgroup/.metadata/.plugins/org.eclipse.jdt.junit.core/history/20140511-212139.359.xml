@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="recfun" project="recfun" tests="11" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="recfun.BalanceSuite" time="0.0">
+    <testcase name="balance: '" classname="if (zero? x" time="0.0"/>
+    <testcase name="balance: 'I told him ...' is balanced" classname="recfun.BalanceSuite" time="0.0"/>
+    <testcase name="balance: ':-)' is unbalanced" classname="recfun.BalanceSuite" time="0.0"/>
+    <testcase name="balance: counting is not enough" classname="recfun.BalanceSuite" time="0.0"/>
+  </testsuite>
+  <testsuite name="recfun.PascalSuite" time="0.0">
+    <testcase name="pascal: col=0,row=2" classname="recfun.PascalSuite" time="0.0"/>
+    <testcase name="pascal: col=1,row=2" classname="recfun.PascalSuite" time="0.0"/>
+    <testcase name="pascal: col=1,row=3" classname="recfun.PascalSuite" time="0.0"/>
+  </testsuite>
+  <testsuite name="recfun.CountChangeSuite" incomplete="true">
+    <testcase name="countChange: example given in instructions" classname="recfun.CountChangeSuite" incomplete="true"/>
+    <testcase name="countChange: sorted CHF" classname="recfun.CountChangeSuite" incomplete="true"/>
+    <testcase name="countChange: no pennies" classname="recfun.CountChangeSuite" incomplete="true"/>
+    <testcase name="countChange: unsorted CHF" classname="recfun.CountChangeSuite" incomplete="true"/>
+  </testsuite>
+</testrun>
